@@ -8,7 +8,13 @@ use App\ProductCategory;
 class Product extends Model
 {
     protected $table = 'products';
-    protected $fillable = [];
+    protected $fillable = [
+        'product_id',
+        'ime',
+        'velicina',
+        'cena',
+        'trosak'
+    ];
     protected $guarded = ['id'];
 
     /**
