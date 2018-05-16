@@ -16,6 +16,8 @@ class Employee extends Model
         'broj_kucnog',
         'pozicija',
         'permissions',
-        'pocetak_rada'
+        'pocetak_rada',
+        'password',
+        'email'
     ];
 }

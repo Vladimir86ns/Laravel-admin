@@ -22,6 +22,8 @@ class CreateEmployeesTable extends Migration
             $table->integer('broj_mobilnog')->nullable();
             $table->integer('broj_kucnog')->nullable();
             $table->string('pozicija')->nullable();
+            $table->string('email')->unique();
+            $table->string('password');
             $table->text('permissions')->nullable();
             $table->dateTime('pocetak_rada')->default(date('Y-m-d'));
         });
