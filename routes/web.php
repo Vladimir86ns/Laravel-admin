@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include_once 'web_builder.php';
 /*
 |--------------------------------------------------------------------------
@@ -249,4 +249,4 @@ Route::get('news/{news}', 'NewsController@show')->name('news.show');
 
 
 Route::get('{name?}', 'FrontEndController@showFrontEndView');
-# End of frontend views
+# End of frontend views -->

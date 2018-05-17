@@ -26,6 +26,7 @@ class CreateEmployeesTable extends Migration
             $table->string('password');
             $table->text('permissions')->nullable();
             $table->dateTime('pocetak_rada')->default(date('Y-m-d'));
+            $table->timestamps();
         });
     }
 
