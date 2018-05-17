@@ -77,8 +77,6 @@ class AuthController extends JoshController
      */
     public function postSignup(UserRequest $request)
     {
-        \Log::info($request->all());
-        dd('stop');
         try {
             // Register the user
             $user = Sentinel::registerAndActivate([
